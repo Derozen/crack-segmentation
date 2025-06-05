@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from typing import Optional
 
-from crackseg.utils.functional import cross_entropy, dice_loss, sigmoid_focal_loss
+from utils.functional import cross_entropy, dice_loss, sigmoid_focal_loss
 
 __all__ = ["DiceLoss", "DiceCELoss", "CrossEntropyLoss", "FocalLoss"]
 

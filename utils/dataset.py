@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from torch.utils import data
 
-from crackseg.utils.general import TrainTransforms
+from utils.general import TrainTransforms
 
 
 class RoadCrack(data.Dataset):
