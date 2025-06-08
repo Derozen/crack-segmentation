@@ -131,7 +131,7 @@ def parse_opt():
     parser.add_argument("--data", type=str, default="./data", help="Path to root folder of data")
     parser.add_argument("--image_size", type=int, default=448, help="Input image size, default: 448")
     parser.add_argument("--save-dir", type=str, default="weights", help="Directory to save weights")
-    parser.add_argument("--epochs", type=int, default=10, help="Number of epochs, default: 5")
+    parser.add_argument("--epochs", type=int, default=5, help="Number of epochs, default: 5")
     parser.add_argument("--batch-size", type=int, default=4, help="Batch size, default: 12")
     parser.add_argument("--lr", type=float, default=1e-5, help="Learning rate, default: 1e-5")
     parser.add_argument("--weights", type=str, default="", help="Pretrained model, default: None")
